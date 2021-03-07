@@ -1,6 +1,3 @@
-//         <Navbar />
-//         <div className="content">
-
 import React from "react";
 import "./index.css";
 import Navbar from "./Navbar";
@@ -15,6 +12,7 @@ function App() {
       <div className="content">
         <Navbar />
       </div>
+        <AddItem />
         <AddItem />
         <ItemsList />
       </div>
