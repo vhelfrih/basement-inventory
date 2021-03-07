@@ -1,1 +1,0 @@
-A simple basement inventory app using React.
