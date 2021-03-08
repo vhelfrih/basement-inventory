@@ -6,6 +6,7 @@ const Item = ({name, amount}) => {
     <div>
       <h3>{name}</h3>
       <p>{amount}</p>
+      <button>Remove</button>
     </div> 
    );
 }

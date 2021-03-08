@@ -89,13 +89,14 @@ button {
   max-width: 8rem;
 }
 
+
 .items-list h3{
   margin: 6px auto;
   font-size: 1.5rem;
   font-weight: 400;
   line-height: 1.2rem;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
 }
 .items-list p{
