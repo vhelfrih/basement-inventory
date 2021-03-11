@@ -3,15 +3,20 @@ import Item from './Item';
 import { ItemContext } from './ItemContext';
 
 const ItemsList = () => {
-  const [items, setItems] = useContext(ItemContext);
-
+  const { items } = useContext(ItemContext);
+  
   return (
     <div className="items-list">
       {items.map(item => (
-        <Item name={item.name} amount={item.amount} key={item.id} />
+        <Item
+          key={item.id} // <-- Static React key to item
+          id={item.id} // <-- Pass id as prop for delete handler to use
+          name={item.name}
+          amount={item.amount}
+        />
       ))}
     </div> 
    );
-}
+};
  
 export default ItemsList;
