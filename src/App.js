@@ -1,6 +1,3 @@
-//         <Navbar />
-//         <div className="content">
-
 import React from "react";
 import "./index.css";
 import Navbar from "./Navbar";
@@ -20,6 +17,6 @@ function App() {
       </div>
     </ItemProvider>
   );
-}
+};
 
 export default App;
