@@ -18,6 +18,6 @@ function App() {
       </div>
     </ItemProvider>
   );
-}
+};
 
 export default App;
